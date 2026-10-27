@@ -1,0 +1,93 @@
+/*
+BASIC SETTINGS
+*/
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: Arial, sans-serif;
+background-color: #787979;
+color: #27158d;
+}
+/*
+COLLEGE HEADER
+*/
+.college-header {
+background-color: #12355b;
+color: white;
+text-align: center;
+padding: 25px;
+}
+.college-header h1 {
+font-size: 30px;
+margin-bottom: 8px;
+}
+.college-header h2 {
+font-size: 20px;
+margin-bottom: 8px;
+}
+.college-header p {
+font-size: 15px;
+}
+/*
+HORIZONTAL SIDEBAR
+*/
+.sidebar {
+background-color: #0a063e;
+display: flex;
+justify-content: center;
+padding: 12px;
+}
+.sidebar a {
+color: white;
+text-decoration: none;
+padding: 10px 18px;
+margin: 0 5px;
+}
+.sidebar a:hover {
+background-color: #1470d2;
+}
+/*
+MAIN BODY
+*/
+main {
+width: 90%;
+margin: 30px auto;
+}
+/*
+SECTIONS
+*/
+section {
+background-color: white;
+padding: 25px;
+margin-bottom: 25px;
+border-radius: 30px;
+}
+section h2 {
+color: #164b84;
+margin-bottom: 15px;
+border-bottom: 2px solid #12355b;
+padding-bottom: 8px;
+}
+section p {
+line-height: 1.7;
+font-size: 16px;
+}
+/*
+LISTS
+*/
+section ul {
+padding-left: 25px;
+}
+section li {
+margin-bottom: 10px;
+line-height: 1.6;
+}
+/*
+HOVER EFFECT
+*/
+.sidebar a:hover {
+color: rgb(234, 227, 227);
+}
